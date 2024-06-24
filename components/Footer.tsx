@@ -10,14 +10,13 @@ export default function Footer(): JSX.Element {
         className="no-underline"
       >
         <div className="flex items-center space-x-2">
-          <CosmicLogo />
           <span className="text-zinc-700 dark:text-zinc-300">
-            Proudly powered by Cosmic
+            Hecho con amor por la comunidad de <a href="https://ututo.ar" target='_blank'>Ututo</a>
           </span>
         </div>
       </a>
       <div className="text-zinc-700 dark:text-zinc-300">
-        &copy;&nbsp;&nbsp;{new Date().getFullYear()} Cosmic
+        &copy;&nbsp;&nbsp;{new Date().getFullYear()} Ututo
       </div>
     </footer>
   );

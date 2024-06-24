@@ -4,14 +4,14 @@ export default function Banner(): JSX.Element {
   return (
     <div className="flex justify-center space-x-1 bg-zinc-100 p-2 text-xs dark:bg-zinc-900 md:text-sm lg:text-base">
       <span className="text-zinc-800 dark:text-zinc-200">
-        The source code for this blog is
+        Si te interesa nuestro contenido podes seguirnos en este
       </span>
       <a
-        href="https://github.com/cosmicjs/simple-nextjs-blog"
-        target="_parent"
-        className="text-green-500 underline dark:text-green-300"
+        href="https://linktr.ee/ututolinux"
+        target="_blank"
+        className="text-yellow-500 underline dark:text-yellow-300"
       >
-        available on GitHub
+        link
       </a>
       .
     </div>
