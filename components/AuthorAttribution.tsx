@@ -8,7 +8,7 @@ export default function AuthorAttribution({
 }): JSX.Element {
   return (
     <div className="flex space-x-1">
-      <span>escrito por</span>
+      <span>por</span>
       <a
         href={`/author/${post.metadata.author?.slug}`}
         className="font-medium text-green-600 dark:text-green-200"
