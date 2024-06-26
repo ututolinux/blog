@@ -11,7 +11,7 @@ export default function Footer(): JSX.Element {
       >
         <div className="flex items-center space-x-2">
           <span className="text-zinc-700 dark:text-zinc-300">
-            Hecho con amor por la comunidad de <a href="https://ututo.ar" target='_blank'>Ututo</a>
+            Hecho con &#10084; por la comunidad de <a href="https://ututo.ar" target='_blank'>Ututo</a>
           </span>
         </div>
       </a>
